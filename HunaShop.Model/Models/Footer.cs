@@ -8,6 +8,7 @@ namespace HunaShop.Model.Models
     public class Footer
     {
         [Key]
+        [MaxLength(50)]
         public String ID { get; set; }
 
         [Required]
